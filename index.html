@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمة</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h2{
+    color: #e3e3e3;
+}
+
+header {
+   border-radius: 4px 5px;
+   box-shadow: 3px 4px 8px  gold;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    direction: rtl;
+}
+
+.service {
+    background: #8b5b5b;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    color: #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+
+
+footer  {
+    background: #d1650dd0;
+    color: #000000;
+    font-size:20px ;
+    text-align: center;
+    padding: 6px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    direction: rtl;
+    padding: 10px 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.watt{
+    direction: rtl;
+}
+h1{
+    color: crimson;
+    text-shadow: gold;
+}
+.select{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+.select:hover{
+    background-color: rgba(196, 108, 0, 0.614);
+    transition: 0.2s;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img.png.jpg" alt="" width="100%" height="100%">
+       
+    </header>
+    <main>
+        <section id="services">
+           
+            <div class="service" data-service="m nurses">
+                <h3>ممرضين</h3>
+                <p>توفير خدمات تمريضية مؤهلة.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    
+                    <option value="">قياس ضغط الدم والسكر والاكسيجين في الدم</option>
+                    <option value="">تضميد وعلاج الجروح المتعفنة</option>
+                    <option value="">مساعدة الاشخاص والمسينين وذوي الاحتياجات الخاصة</option>
+                    <option value="">متابعة المرضى قبل وبعد الجراحة</option>
+                    <option value="">اعطاء الحقن</option>
+                    <option value="">تركيب السيروم</option>
+                    <option value="">...</option>
+
+                </select>
+            </div>
+            <div class="service" data-service="electricians">
+                <h3>تركيب الكهرباء</h3>
+                <p>تركيب وصيانة أنظمة الكهرباء.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">تركيب الأسلاك الكهربائية</option>
+                    <option value="">تركيب المخارج الكهربائية</option>
+                    <option value="">تركيب أنظمة الإضاءة</option>
+                </select>
+
+            </div>
+            <div class="service" data-service="cameras">
+                <h3>تركيب كاميرات المراقبة</h3>
+                <p>تركيب أنظمة المراقبة بالكاميرات.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">تركيب كاميرات المراقبة</option>
+                    <option value="">صيانة وإصلاح الكاميرات</option>
+                    <option value="">ترقية أنظمة المراقبة</option>
+                </select>
+            </div>
+            <div class="service" data-service="plumbers">
+                <h3>بلومبي</h3>
+                <p>خدمات السباكة والتصليحات.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">إصلاح السباكة</option>
+                    <option value="">تركيب الأنابيب</option>
+                    <option value="">الكشف عن التسريبات</option>
+                </select>
+
+            </div>
+            <div class="service" data-service="cleaning">
+                <h3>نظافة المنازل</h3>
+                <p>خدمات تنظيف المنازل بشكل احترافي.</p>
+                <p>الخدمات  : </p>
+                <select class="select" >
+                    <option value="">تنظيف المنازل</option>
+                    <option value="">تنظيف السجاد</option>
+                    <option value="">تنظيف النوافذ</option>
+                </select>
+
+            </div>
+            <div class="service" data-service="decorating">
+                <h3>تزين المنازل</h3>
+                <p>تصميم داخلي وتزيين المنازل.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">تصميم داخلي</option>
+                    <option value="">الطلاء</option>
+                    <option value="">تزيين</option>
+                </select>
+
+            </div>
+            <div class="service" data-service="aluminum">
+                <h3>تركيب اليمينيوم</h3>
+                <p>خدمات تركيب أبواب ونوافذ الألومنيوم.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">تركيب النوافذ</option>
+                    <option value="">تركيب الابواب</option>
+                    <option value="">تركيب الفواصل الداخلية</option>
+                </select>
+
+
+            </div>
+            <div class="service" data-service="mechanic">
+                <h3>ميكانيك السيارات</h3>
+                <p>صيانة وإصلاح السيارات.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">إصلاح المحرك</option>
+                    <option value="">تغيير الزيت</option>
+                    <option value="">خدمة الفرامل</option>
+                </select>
+
+            </div>
+            <div class="service" data-service="sewing">
+                <h3>خياطة عصرية</h3>
+                <p>خدمات خياطة ملابس عصرية.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">خياطة مخصصة</option>
+                    <option value="">تصميم أزياء</option>
+                    <option value="">خدمات تعديل الملابس</option>
+                </select>
+
+
+            </div>
+            <div class="service" data-service="design">
+                <h3>تصميم</h3>
+                <p>خدمات التصميم الجرافيكي.</p>
+                <p>الخدمات  : </p>
+                <select class="select" >
+                    <option value="">تصميم جرافيكي</option>
+                    <option value="">تصميم مواقع ويب</option>
+                    <option value="">تصميم العلامات التجارية</option>
+                </select>
+
+            </div>
+            <div class="service" data-service="web-development">
+                <h3>تطوير مواقع الويب</h3>
+                <p>تطوير وتصميم مواقع الويب.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">تصميم مواقع ويب</option>
+                    <option value="">تطوير مواقع ويب</option>
+                    <option value="">تحسين محركات البحث (SEO)</option>
+                </select>
+            </div>
+            <div class="service" data-service="social-media">
+                <h3>خدمات مواقع التواصل الاجتماعي</h3>
+                <p>إدارة الحملات على مواقع التواصل الاجتماعي.</p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">إدارة مواقع التواصل الاجتماعي</option>
+                    <option value="">إنشاء المحتوى</option>
+                    <option value="">حملات الإعلانات المدفوعة</option>
+                </select>
+            </div>
+            <div class="service" data-service="social-media">
+                <h3>خدمات  العقار</h3>
+                <p>خدمات العقار تشمل مجموعة متنوعة
+                     من الحلول التي تتعامل مع جميع جوانب شراء، بيع، تأجير، وإدارة العقارات. </p>
+                <p>الخدمات  : </p>
+                <select class="select">
+                    <option value="">مساعدة في الشراء: العثور على العقارات</option>
+                    <option value="">خدمات البيع </option>
+                    <option value="">إدارة الإيجارات</option>
+                </select>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h1>اطلب الخدمة
+        </h1>
+        <form id="contactForm">
+            <label for="الاسم">الا سم :</label>
+            <input type="text" id="الاسم" name="الاسم" required>
+            <br>
+            <label for="العنوان">العنوان:</label>
+            <input type="text" id="العنوان" name="العنوان" required>
+            <br>
+            <label for="الصنف">الصنف:</label>
+            <input type="text" id="الصنف" name="الصنف" required>
+            <br>
+            <label for="الخدمة">الخدمة:</label>
+            <textarea id="الخدمة" name="الخدمة" required></textarea>
+            <br>
+
+            <button type="button" onclick="sendEmail()" style="background-color: rgb(10, 86, 5) ;color: rgb(255, 255, 255);">إرسال</button>
+        </form>
+    
+        <script>
+            function sendEmail() {
+                const name = document.getElementById('الاسم').value;
+                const email = document.getElementById('العنوان').value;
+                const catogore = document.getElementById('الصنف').value;
+                const message = document.getElementById('الخدمة').value;
+    
+                const mailtoLink = `mailto:wsyakine@gmail.com?subject=رسالة من ${name}&body=البريد الإلكتروني: ${email}%0D%0A%0D%0A${message}`;
+                window.location.href = mailtoLink;
+            }
+        </script>
+    </footer>
+    
+
+ 
+
+  
+
+        
+   
+</body>
+</html>
